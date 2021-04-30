@@ -1,2 +1,3 @@
-# 15-Puzzle-Solver-Astar-Search
-Solves a 15 puzzle where the objective is to get from one pattern to another by only moving the blank piece. Uses A* search.
+# 15 Puzzle Solver: A* Search
+Solves a 15 puzzle where the objective is to get from one pattern to another by only moving the blank piece. Uses A* search. To run, replace the global variables INFILE_PATH and OUTFILE_PATH at lines 57 and 58 with whatever filepaths you want to read/write to, respectively. Then run the code as you would  run any standard python file. All the necessary code is in the one file, and the main function defined at line 170 runs the search and output function once using these global variables. The input files provide an initial and goal configuration, the output file displays both configurations, the depth of the shallowest goal node, the total number of nodes generated, the path generated (use the attached image as a key) and the f(n) values of the solution path nodes.
+![image](https://user-images.githubusercontent.com/47329820/116750397-6653ed00-a9d0-11eb-8a69-a57a695359a5.png)
